@@ -17,25 +17,33 @@ CREATE TABLE "СОТРУДНИК"
 
 4.	Создать запросы для вывода:
 a)	всех различных размеров налогов;
+
 SELECT DISTINCT "НАЛОГ" FROM "СОТРУДНИК";
 ![image](https://user-images.githubusercontent.com/64357780/114876777-198ce580-9e18-11eb-8efa-7549d65d5a37.png)
+
 SELECT DISTINCT "ОТЧИСЛЕНИЕ В ПЕНСИОННЫЙ ФОНД" FROM "МЕСТО РАБОТЫ";
 ![image](https://user-images.githubusercontent.com/64357780/114877129-6ffa2400-9e18-11eb-9102-6c6615a37727.png)
 b)	всех различных мест работы;
+
 SELECT DISTINCT "НАЗВАНИЕ ОРГ." FROM "МЕСТО РАБОТЫ";
 ![image](https://user-images.githubusercontent.com/64357780/114877827-1a724700-9e19-11eb-9b79-423d5408c2f2.png)
 c)	всех различных районов проживания сотрудников.
+
 SELECT DISTINCT "АДРЕС" FROM "СОТРУДНИК";
 ![image](https://user-images.githubusercontent.com/64357780/114878131-5c02f200-9e19-11eb-936f-2b3212beed0b.png)
 
 5.	Создав запрос получить следующую информацию:
+
 a)	фамилии и адреса сотрудников, имеющих налог более 8%;
+
 SELECT "ФАМИЛИЯ", "АДРЕС" FROM "СОТРУДНИК" WHERE "НАЛОГ" >= 8;
 ![image](https://user-images.githubusercontent.com/64357780/114880130-3a0a6f00-9e1b-11eb-95fd-c8794530e29f.png)
 b)	почасовую оплату и название для должностей, в названии которых встречаются слова “научный сотрудник”;
+
 SELECT "ПОЧАСОВАЯ ОПЛАТА", "НАЗВАНИЕ" FROM "ДОЛЖНОСТЬ" WHERE "НАЗВАНИЕ" like '%научный сотрудник%'
 ![image](https://user-images.githubusercontent.com/64357780/114918651-bf544a80-9e40-11eb-8fe4-f75161b94c8c.png)
 c)	номер, дату и количество часов для тех записей о работе, где плата превышала 100000руб.
+SELECT "НОМЕР", "ДАТА", "КОЛ-ВО ЧАСОВ" FROM "РАБОТА" WHERE "ПЛАТА" >= 100000
 ![image](https://user-images.githubusercontent.com/64357780/114918849-fe829b80-9e40-11eb-8b78-2ad4a0799cbe.png)
 
 6.	На основании данных о работе вывести все данные в таком формате:
