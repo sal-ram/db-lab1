@@ -12,3 +12,16 @@ CREATE TABLE "СОТРУДНИК"
 
 ![image](https://user-images.githubusercontent.com/64357780/114874877-2f011000-9e16-11eb-9ae2-be7f5289009f.png)
 
+4.	Создать запросы для вывода:
+a)	всех различных размеров налогов;
+SELECT DISTINCT "НАЛОГ" FROM "СОТРУДНИК";
+![image](https://user-images.githubusercontent.com/64357780/114876777-198ce580-9e18-11eb-8efa-7549d65d5a37.png)
+SELECT DISTINCT "ОТЧИСЛЕНИЕ В ПЕНСИОННЫЙ ФОНД" FROM "МЕСТО РАБОТЫ";
+![image](https://user-images.githubusercontent.com/64357780/114877129-6ffa2400-9e18-11eb-9102-6c6615a37727.png)
+b)	всех различных мест работы;
+SELECT DISTINCT "НАЗВАНИЕ ОРГ." FROM "МЕСТО РАБОТЫ";
+![image](https://user-images.githubusercontent.com/64357780/114877827-1a724700-9e19-11eb-9b79-423d5408c2f2.png)
+c)	всех различных районов проживания сотрудников.
+SELECT DISTINCT "АДРЕС" FROM "СОТРУДНИК";
+![image](https://user-images.githubusercontent.com/64357780/114878131-5c02f200-9e19-11eb-936f-2b3212beed0b.png)
+
