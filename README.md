@@ -3,9 +3,12 @@ CREATE TABLE "СОТРУДНИК"
 ![image](https://user-images.githubusercontent.com/64357780/114863950-d4fa4d80-9e09-11eb-95b3-8e7f3eee4be4.png)
 2.  Ввести в ранее созданные таблицы конкретные данные (см. прил. 1). Использовать скрипт-файл из операторов INSERT или вспомогательную утилиту.
 ![image](https://user-images.githubusercontent.com/64357780/114872776-109a1500-9e14-11eb-9a19-6b1db9a3a1a7.png)
-3. 3.	Используя оператор SELECT создать запрос для вывода всех строк каждой таблицы. Проверить правильность ввода. При необходимости произвести коррекцию значений операторами INSERT, UPDATE, DELETE. 
+3.  Используя оператор SELECT создать запрос для вывода всех строк каждой таблицы. Проверить правильность ввода. При необходимости произвести коррекцию значений операторами INSERT, UPDATE, DELETE. 
 ![image](https://user-images.githubusercontent.com/64357780/114874629-ecd7ce80-9e15-11eb-97e2-42bdb453624a.png)
+
 ![image](https://user-images.githubusercontent.com/64357780/114874759-109b1480-9e16-11eb-9940-d1e2feffdd68.png)
+
 ![image](https://user-images.githubusercontent.com/64357780/114874824-214b8a80-9e16-11eb-91d7-9b530163ba3c.png)
+
 ![image](https://user-images.githubusercontent.com/64357780/114874877-2f011000-9e16-11eb-9ae2-be7f5289009f.png)
 
